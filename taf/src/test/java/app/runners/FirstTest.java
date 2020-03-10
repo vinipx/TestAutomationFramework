@@ -1,6 +1,6 @@
-package runners;
+package app.runners;
 
-import base.BaseTest;
+import app.base.BaseTest;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;

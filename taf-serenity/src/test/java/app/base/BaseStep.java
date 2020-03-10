@@ -1,12 +1,13 @@
-package base;
+package app.base;
 
-import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 
-public class BaseTest {
+import static net.serenitybdd.rest.SerenityRest.rest;
+
+public class BaseStep {
     protected final static String ROOT_URI = "http://localhost:8080";
 
     protected RequestSpecification given() {
-        return RestAssured.given().baseUri(ROOT_URI);
+        return rest().given().baseUri(ROOT_URI);
     }
 }

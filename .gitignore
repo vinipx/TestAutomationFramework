@@ -3,3 +3,6 @@
 /sut/sut.iml
 /taf/taf.iml
 /.idea/*
+/taf-serenity/target/*
+/taf/target/*
+*/target/*
